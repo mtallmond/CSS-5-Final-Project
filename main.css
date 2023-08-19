@@ -2,6 +2,10 @@ body {
     background-color: lightgrey;
 }
 
+ul.fa-ul li {
+    word-wrap: normal;
+}
+
 nav {
     background-color: navy;
     justify-content: left;
@@ -97,6 +101,10 @@ button {
     border: 2px solid white;
     border-radius: 5px;
 }
+
+#tabs-section .tab-pane {
+    padding-right: 2em;
+}    
 
 #nav-tab {
     background-color: white;
